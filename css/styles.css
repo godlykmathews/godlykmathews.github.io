@@ -11423,3 +11423,8 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+* { box-sizing: border-box; }
+.two { width: 30em; max-width: 100%; }
+.two p { display: inline-block; max-width: 50%; }
+.two p:nth-child(1) { float:left; }
+.two p:nth-child(2) { float:right; }
